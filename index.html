@@ -8,6 +8,57 @@
     <title>We want to know what you think...</title>
   </head>
   <body>
- 
+    <div class="container">
+      
+      <!-- text input -->
+      <div class="form-group">
+        <label for="person1">A name</label>
+        <input id="person1" class="form-control" type="text">
+      </div>
+      
+      <!-- select box (list) -->
+      <select class="form-control" id="beverage">
+        <option>Coffee</option>
+        <option>Tea</option>
+        <option>Kombucha</option>
+        <option>Water</option>
+      </select>
+      
+      <!-- radio buttons -->
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Chocolate
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Vanilla
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">
+          Cookies & Cream
+        </label>
+      </div>
+
+      <!-- date -->
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+
+      <!-- color picker -->
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      
+      <div class="result">
+        <p>Hi, <span class="name>"></span>. We hope you and <span class="cat-name"></span> had fun filling out the survey today, <span class="date"></span>. Based on your responses, we've concluded that your favorite type of cat is <span class="favorite"></span>, your preferred purr volume is <span class="purr"></span>, your preferred meow type is <span class="meow"></span>, and if you could have a cat in any color, it would look like <span class="color"></span> =^-^= !</p>
+      </div>
+    </div>
   </body>
 </html>
