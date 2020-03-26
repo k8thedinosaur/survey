@@ -9,16 +9,18 @@ $(document).ready(function() {
 });
 
 // text input
-
+var name = $("name").val();
+var catName = $("cat-name").val();
 
 // select box (list)
-var beverage = $("#beverage").val();
+var type = $("#type").val();
 
 // radio buttons
-var flavor = $("input:radio[name=flavor]:checked").val();
+var purr = $("input:radio[name=purr]:checked").val();
+var meow = $("input:radio[name=meow]:checked").val();
 
 // date
-var dob = $("#born").val();
+var date = $("#date").val();
 
 // color
-var favoriteColor = $("#color").val();
+var color = $("#color").val();
