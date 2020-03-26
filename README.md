@@ -39,3 +39,19 @@ _jQuery_
 *This software is licensed under the MIT license.*
 
 Copyright (c) 2020 **_Kate Farkas, Epicodus_**
+
+
+<!-- cat survey
+
+text
+-name
+-cat's name
+select box
+-favorite type of cat
+radio buttons
+-preferred purr volume
+-preferred meow type
+date
+-your cat's birthday
+color
+-favorite color of cat -->

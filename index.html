@@ -5,55 +5,105 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>We want to know what you think...</title>
+    <title>Your opinion meowtters!</title>
   </head>
   <body>
     <div class="container">
-      
+      <h1>Cat survey!</h1>
       <!-- text input -->
-      <div class="form-group">
-        <label for="person1">A name</label>
-        <input id="person1" class="form-control" type="text">
-      </div>
-      
-      <!-- select box (list) -->
-      <select class="form-control" id="beverage">
-        <option>Coffee</option>
-        <option>Tea</option>
-        <option>Kombucha</option>
-        <option>Water</option>
-      </select>
-      
-      <!-- radio buttons -->
-      <div class="radio">
-        <label>
-          <input type="radio" name="flavor" value="chocolate" checked>
-          Chocolate
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="flavor" value="vanilla">
-          Vanilla
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="flavor" value="cookiesandcream">
-          Cookies & Cream
-        </label>
+      <div class="text question">
+        <div class="form-group">
+          <label for="name">What's your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="cat-name">What's your cat's name?</label>
+          <input id="cat-name" class="form-control" type="text">
+        </div>
       </div>
 
       <!-- date -->
-      <div class="form-group">
-        <label for="born">Date of birth:</label>
-        <input id="born" class="form-control" type="date">
+      <div class="date question">
+        <div class="form-group">
+          <label for="born">When are you filling out this survey?</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+      </div>
+
+      <!-- select box (list) -->
+      <div class="select question">
+        <label for="name">What's your favorite type of cat?</label>
+        <select class="form-control" id="type">
+          <option>all of them</option>
+          <option>the good ones</option>
+          <option>the ungood ones</option>
+        </select>
+      </div>
+      
+      <!-- radio buttons -->
+      <div class="purr question">
+        <label for="purr">What is your preferred volume of purr?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="purr" value="loud" checked>
+            loud
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="purr" value="medium">
+            medium
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="purr" value="soft">
+            soft
+          </label>
+        </div>
+      </div>
+
+      <div class="meow question">
+        <label for="meow">What is your preferred style of meow?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meow" value="sweet" checked>
+            sweet
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meow" value="scratchy">
+            scratchy
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meow" value="chattering">
+            chattering
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meow" value="peep">
+            a tiny little peep
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meow" value="howling">
+            howling at a spider on the wall at 3AM
+          </label>
+        </div>
       </div>
 
       <!-- color picker -->
-      <div class="form-group">
-        <label for="color">What is your favorite color?</label>
-        <input id="color" class="form-control" type="color">
+      <div class="color">
+        <div class="form-group">
+          <label for="color">What is your favorite cat color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
       </div>
       
       <div class="result">
